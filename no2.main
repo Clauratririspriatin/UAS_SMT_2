@@ -1,0 +1,38 @@
+package pegawai;
+
+
+public class NewMain {
+
+
+    public static void main(String[] args) {
+        System.out.println("=== Pegawai ===");
+        pegawai p1 = new pegawai("Lee Jeno", "Laki-laki", "9999", true);
+        p1.toShow();
+        System.out.println("Tunjangan: " + p1.getTunjangan());
+
+        pegawai p2 = new pegawai("Karina", "Perempuan", "8888", false);
+        System.out.println();
+        p2.toShow();
+        System.out.println("Tunjangan: " + p2.getTunjangan());
+
+        System.out.println("\n=== Programmer ===");
+        Programmer pr1 = new Programmer("Jisung", "Laki-laki", "P000", false, 5, 1000000);
+        pr1.toShow();
+        System.out.println("Tunjangan: " + pr1.getTunjangan());
+        System.out.println("Bonus: " + pr1.getBonus());
+
+        Programmer pr2 = new Programmer("Dita", "Perempuan", "P999", true, 2, 1500000);
+        System.out.println();
+        pr2.toShow();
+        System.out.println("Tunjangan: " + pr2.getTunjangan());
+        System.out.println("Bonus: " + pr2.getBonus());
+
+        Programmer pr3 = new Programmer("Haechan", "Laki-laki", "P777", true, 12, 2000000);
+        System.out.println();
+        pr3.toShow();
+        System.out.println("Tunjangan: " + pr3.getTunjangan());
+        System.out.println("Bonus: " + pr3.getBonus());
+    }  
+}
+    
+    
