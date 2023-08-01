@@ -1,0 +1,19 @@
+// claura tri rispriatina 
+//227064516061
+public class NewMain {
+
+   
+    public static void main(String[] args) {
+    
+        // Membuat objek Novel untuk genre fiksi dan non-fiksi
+        FictionNovel fictionNovel = new FictionNovel("The Adventure", "John Doe", 300, 15);
+        NonFictionNovel nonFictionNovel = new NonFictionNovel("History of Java", "Jane Smith", 250, "Java Programming");
+
+        // Menampilkan informasi tentang novel
+        fictionNovel.displayInfo();
+        System.out.println("--------------------------");
+        nonFictionNovel.displayInfo();
+    }
+}
+   
+   
